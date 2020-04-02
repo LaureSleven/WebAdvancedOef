@@ -3,7 +3,7 @@ $correcteGetallen = array();
 $fouteGetallen = array();
 foreach ($_GET['getallen'] as $index => $getal) {
     if (is_numeric($getal)) {
-        $correcteGetallen[] = $getal;
+        $correcteGetallen[] = (int) $getal;
     } else {
         $fouteGetallen[] = $getal;
     }
