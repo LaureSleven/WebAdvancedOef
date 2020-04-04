@@ -15,3 +15,4 @@ if (!(ctype_digit($_GET['getal']))) {
 </form>
 <?php
 }
+
